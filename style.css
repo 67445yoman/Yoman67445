@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+	@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body{
+			background-image: ur1(images.jpg);
+			margin: 0;
+
+height: 100%;
+			padding: 0;
+		    margin: 0px;
+	}
+	
+	header{
+		background: black;
+		color: white;
+		padding: 8px 0px 6px 40px;
+		height: 45px;
+	}
+	
+	header h1{
+		display:inline;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		font-size: 32px;
+		float: left;
+		margin-top: 0px;
+		margin-right: 10px;
+	}	
+	
+	nav ul {
+		display: inline;
+		padding: 2px;
+		float: left;
+	}
+
+	nav ul li{
+		display: inline-black;
+		list-style-type: none;
+		color: white;
+		float: left;
+		margin-left: 13px
+	}
+	
+	 nav ul li a {
+		 color: white;
+		 text-decoration: none;
+    }
+
+	#nav{
+		font-family: 'Monoton', cursive;
+	}	
+	
+	.homered{
+		background-color:red;
+		padding: 30px 10px 16px 10px;
+	}
+
+	.divider {
+		background-color: red;
+		height: 5px;
+	}
+
+	.homeblack:hover{
+		background-color:blue;
+		padding: 30px 10px 16px 10px;
+		
+	}
+	.fwimge1{
+		background-image: ur1(55.jpg);
+		width: 100%;
+		height: 100%;
+		background-repeat: NO-repeat;
+		background-size: cover;
+	}
+	
+	.homesub{
+		font-family: 'Raleway', sans-serif;
+		margin: 0;
+		padding: 9% 5% 0% 55%;
+		font-size:18px;
+		color: yellow;
+		
+		
+	}	
+	.homebus {
+		font-family:'Raleway', sans-serif;
+		margin: 0.5% 0% 0% 55%;
+		font-size: 75px; 
+		color: black;
+		background-color: rgba(0, 0, 0, 0.4);
+		display: inline-block;
+	}
+	
+	.homemus{
+		font-family: 'Oswald',sans-serif;
+		margin: 0% 0% 0% 55%;
+		font-size: 64px;
+		color: black;
+		display: inline-black;
+	
+	}
+	.buttonhome {
+		margin: 0% 0% 0% 55%;
+		background: yellow;
+		color: black;
+		border: none;
+		height: 50px;
+		font-size:1.4em;
+		padding: 0 1em;
+		cursor: pointer;
+		outline: none;
+		font-family:'Raleway', sans-serif;
+		font-weight: 900%;
+		
+		}
+		button: focus {
+			outline: none;
+			
+		}
+		button:before{
+			content:'';
+			display: block;
+			position: absolute;
+			background: rgba(255,255,255,0);
+			width: 60px;
+			height: 100%;
+			left: 0;
+			top: 0;
+			opacity: .5s;
+			filter: blure(30px);
+			transform: translatex(-130px) shkewx(-150eg);
+			
+		}
+		
+		button: after {
+			content:'';
+			display: block;
+			position: absolute;
+			background: rgba(255,255,255,0);
+			width: 30px;
+			height: 100%;
+			left: 30px;
+			top: 0;
+			opacity: 0;
+			filter: blur(30px);
+			transform: translate(-100px)scalex(-15deg);
+		}
+		
+		button:hover {
+			background:#FFFFFF;
+			cursor: pointer;
+			
+		}
+		
+		nutton:hover:before {
+			transform: translatex(300px) skewx(-15deg);
+			opacity: .6;
+			transition: .7s;
+			
+		}
+			nutton:hover:after{
+			transform: translatex(300px) skewx(-15deg);
+			opacity: .1;
+			transition: .7s;
